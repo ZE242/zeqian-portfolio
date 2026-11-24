@@ -1,0 +1,31 @@
+[
+  {
+    "path": "media/bandano-film.mp4",
+    "size": 21135639,
+    "sha256": "7ca07447e7669db01d9bbe2c54b17ba12d1a9fccb33df7f1e9a935981c265a99",
+    "parts": [
+      "video-parts/bandano-film.mp4.part01",
+      "video-parts/bandano-film.mp4.part02",
+      "video-parts/bandano-film.mp4.part03"
+    ]
+  },
+  {
+    "path": "media/fashion-film.mp4",
+    "size": 9855907,
+    "sha256": "026c0287e449ce9ab6a3e20573e94023871c8f9aaaeb3a1cfab5c1d8592b01aa",
+    "parts": [
+      "video-parts/fashion-film.mp4.part01",
+      "video-parts/fashion-film.mp4.part02"
+    ]
+  },
+  {
+    "path": "media/spiaggia-film.mp4",
+    "size": 21827080,
+    "sha256": "a11e2a51a96738ee1ebf1157e5d7d627a1fcb830a25e4c607ddfabba0959db6f",
+    "parts": [
+      "video-parts/spiaggia-film.mp4.part01",
+      "video-parts/spiaggia-film.mp4.part02",
+      "video-parts/spiaggia-film.mp4.part03"
+    ]
+  }
+]

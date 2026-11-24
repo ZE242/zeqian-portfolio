@@ -24,6 +24,8 @@ GitHub Pages 发布版本，包含页面、字体、图片、交互动效、三�
 
 所有必要资源使用相对路径，兼容项目网站子目录，不需要安装 Node.js。
 
+原始影片按无损分段保存在 `video-parts/`；GitHub Actions 使用 `scripts/build_site.py` 自动拼接并校验 SHA-256，生成完整的 `media/*.mp4`。线上影片与原文件逐字节一致。
+
 ## 发布前已检查
 
 - 页面、CSS 引用的本地资源存在。
@@ -31,7 +33,7 @@ GitHub Pages 发布版本，包含页面、字体、图片、交互动效、三�
 - 三部影片和 PDF 均保留。
 - 单个文件小于 GitHub 网页上传的 25 MiB 限制；整个网站小于 GitHub Pages 的 1 GB 发布限制。
 
-PDF 中的影片跳转目前保留原公开网站地址；确定正式 GitHub Pages 域名后可以同步替换。
+PDF 中的影片跳转已同步到本作品集的 GitHub Pages 网址。
 
 ## 官方说明
 
